@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * thecoderin_vatlayer.xml
+ *
+ * Layout implementation for VAT Layer Vat Checking API
+ *
+ * @category    Thecoderin
+ * @package     VatLayer
+ * @copyright   Copyright (c) 2015 Anish Karim C.
+ */
+-->
+<layout version="0.1.0">
+	<checkout_onepage_index>
+		<reference name="head">
+			<action method="addItem"><type>skin_js</type><name>js/thecoderin/includejQ.js</name></action>
+			<block type="core/template" name="vatlayerjs" template="thecoderin/vatlayerjs.phtml" />
+		</reference>
+	</checkout_onepage_index>
+</layout>

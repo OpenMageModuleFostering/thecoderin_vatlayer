@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+	  <tabs>
+		<thecoderin translate="label" module="vatlayer">
+            <label>Thecoderin</label>
+            <sort_order>150</sort_order>
+        </thecoderin>
+	  </tabs>
+	  <sections>
+		<thecoderin  translate="label" module="vatlayer">                    
+		<label>Thecoderin Modules</label>
+		<tab>thecoderin</tab>
+		<frontend_type>text</frontend_type>
+		<sort_order>100</sort_order>
+		<show_in_default>1</show_in_default>
+		<show_in_website>1</show_in_website>
+		<show_in_store>1</show_in_store>            
+					<groups>
+				      <thecoderin_vatlayer translate="label"> 
+					  <label>VATLayerAPI</label>
+					  <frontend_type>text</frontend_type>
+					  <sort_order>10</sort_order>
+					  <show_in_default>1</show_in_default>
+					  <show_in_website>1</show_in_website>
+					  <show_in_store>1</show_in_store>
+				       <fields>
+                          <apikey translate="label">
+                            <label>VATLayer API Key</label>
+							<frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+							<comment><![CDATA[Please create an account in <a href='https://vatlayer.com/' target='_blank'>VAT Layer</a> and generate an <b style='color:red'>API key</b>.]]></comment>
+                          </apikey>
+					   </fields>
+					   </thecoderin_vatlayer>
+					</groups>
+		</thecoderin>
+	  </sections>
+</config>

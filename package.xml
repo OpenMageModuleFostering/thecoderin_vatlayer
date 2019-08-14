@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>Thecoderin_VatLayer</name>
+    <version>0.1.0</version>
+    <stability>beta</stability>
+    <license uri="https://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Thecoderin VatLayer is a real-time VAT Number Validation package using the APIs provided by https://vatlayer.com/</summary>
+    <description>Thecoderin VatLayer is a real-time VAT Number Validation package using the APIs provided by https://vatlayer.com/&#xD;
+Once the extension is installed on the system, you need to configure the same with the VAT Layer API Key, which can be obtained from their site. On enabling the VAT field on the checkout (Configurations &gt; Customer &gt;  Customer Configuration &gt; Name and Address Options, Show Tax/VAT Number)</description>
+    <notes>Site-wide testing needed with all versions of Magento.</notes>
+    <authors><author><name>Anish Karim</name><user>Thecoderin</user><email>thecoderin@gmail.com</email></author></authors>
+    <date>2016-03-03</date>
+    <time>05:20:51</time>
+    <contents><target name="magelocal"><dir name="Thecoderin"><dir name="VatLayer"><dir name="Helper"><file name="Data.php" hash="131115b5df46bfc2aa4e325fb4703b7c"/></dir><dir name="Model"><file name="Vatlayer.php" hash="d2db7b02138a4a29cc8de8048b18b0d7"/></dir><dir name="controllers"><file name="AjaxController.php" hash="3569ed3af63364ac47e6ac9ce6669fd3"/></dir><dir name="etc"><file name="adminhtml.xml" hash="fd6d22a2b7e344ac0a2c5f22b8ee6edd"/><file name="config.xml" hash="2fb1375a6d98628519e9f0751415cd66"/><file name="system.xml" hash="33e2ca6c252fca3a0071a8bdc2db5782"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="vatlayer.xml" hash="54efd925228c726b453c657e58c9e787"/></dir><dir name="template"><dir name="thecoderin"><file name="vatlayerjs.phtml" hash="83837c832b14d4db8f3fe478fdf248cd"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Thecoderin_VatLayer.xml" hash="3d79c2e8b9d022a2def625cd9791c164"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="js"><dir name="thecoderin"><file name="includejQ.js" hash="0905730c859a7d4e0e9db0e7bed2c6de"/><file name="vatlayer.js" hash="9d3d7e6e76860abbf59ca2f210a7b512"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
