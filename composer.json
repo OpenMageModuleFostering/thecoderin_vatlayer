@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Thecoderin_VatLayer",
+    "name": "OpenMageModuleFostering\/Thecoderin_VatLayer",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
-    "description": "Thecoderin VatLayer is a real-time VAT Number Validation package using the APIs provided by https://vatlayer.com/",
+    "description": "Thecoderin VatLayer is a real-time VAT Number Validation package using the APIs provided by https:\/\/vatlayer.com\/",
     "authors": [
-    {
-        "name": "Anish Karim",
-        "email": "thecoderin@gmail.com"
-    }
-],
+        {
+            "name": "Anish Karim",
+            "email": "thecoderin@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
